@@ -1,0 +1,29 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 30px auto;
+    width: 500px;
+    height: 120px;
+    padding: 20px;
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.boton {
+    color: antiquewhite;
+    background-color: darkkhaki;
+    box-shadow: 2px 2px 2px 1px rgba(6, 6, 12, 0.767);
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+
+}
+#like {
+    color: black;
+}
